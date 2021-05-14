@@ -5,8 +5,7 @@
   "description": "Mautic Open Source Distribution",
   "require": {
     "composer/installers": "^1.11",
-    "mautic/core-lib": "self.version",
-    "mautic/grapes-js-builder-bundle": "dev-mautic3x"
+    "mautic/core-lib": "self.version"
   },
   "require-dev": {
     "symfony/web-profiler-bundle": "~4.4.0",
@@ -24,7 +23,7 @@
     "phpunit/phpunit": "^9.5",
     "liip/functional-test-bundle": "^4.2",
     "php-http/mock-client": "^1.4"
-  },  
+  },
   "autoload": {
     "psr-4": {
       "MauticPlugin\\": "plugins/"
